@@ -5,43 +5,33 @@ body {
 
 
 
-header{
-    display:flex;
-    background-color: blue;
-    height: 150px;
-    padding: 10px;
+
+
+
+
+
+
+
+
+.main_title{
+
+    color: white;
     text-align: center;
+    }
 
-}
-
-.logo_inicial{
-    height: 145px;
-    margin-left: 100px;
-}
-
-.header-image {
-    width: 150px; /* Ajusta el tamaño de la imagen al ancho del header */
-    height:140px ; /* Mantiene la proporción de la imagen */
-
-}
-
-.whatsapp_button
-
-   {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%; /* Esto hace que el elemento sea circular */
-      overflow: hidden;
-}
 
 /*estilos en mobile*/
 
-@media (max-width: 641px) {
+
 
     @media (max-width: 641px) {
-        header {
-            height: 72px;
-            padding: 5px;
+       
+
+        header{
+            background-color: teal;
+            height: 150px;
+            padding: 10px;
+            text-align: center;
         
         }
     
@@ -81,14 +71,10 @@ header{
             margin-top: 10px; /* Ajusta el margen para que el texto se vea mejor */
         }
 
-        .main_title{
-
-            color: white;
         
-            }
     }
 
-}
+
  /*estilos en Desktop*/
  
  @media (min-width: 642px) {
@@ -103,9 +89,11 @@ header{
 
     .main_title{
 
-    color: white;
+        color: white;
+        text-align: center;
+        }
 
-    }
+    
 
     .container {
         display: flex; 
