@@ -239,7 +239,7 @@ body {
         width: 100%;
         height: auto;
         max-width: 100%; /* Limita el ancho máximo de la imagen */
-        max-height: 80vh; /* Limita la altura máxima de la imagen */
+        max-height: 40vh; /* Limita la altura máxima de la imagen */
         object-fit: contain; /* Mantiene la relación de aspecto sin recortar */
     }
     
