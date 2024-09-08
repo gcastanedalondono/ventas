@@ -16,3 +16,37 @@ body, html {
 
 }
 
+/*estilos en mobile*/
+ 
+@media (max-width: 641px) {
+  
+   .contenedor{
+
+
+       width: 80%;
+       margin-top: 40px;
+      
+       align-items: center;
+       display: flex;
+       flex-wrap: wrap;
+       position: absolute;
+       padding: 10px;
+       margin-left: 120px;
+   } 
+
+   .elemento{
+    height: 80px;
+    width: 90px;
+    padding: 60px;
+    border: 2px solid #3498db;
+    align-items: center;
+    margin: 10px 0; 
+
+   }
+}
+
+/*estilos en Desktop*/
+ 
+@media (min-width: 642px) {
+  
+}
