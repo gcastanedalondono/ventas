@@ -1,81 +1,158 @@
-header{
-    background-color: teal;
-    height: 100px;
-    display: flex;
-    justify-content: center; /* Centra el contenido horizontalmente */
-    align-items: center;     /* Centra el contenido verticalmente (opcional) */
-    height: 60px; 
-    color:white;        
-     
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%
 
+
+header{
+    display:flex;
+    background-color: blue;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.logo_inicial{
+    height: 145px;
+    margin-left: 100px;
+}
+
+.header-image {
+    width: 150px; /* Ajusta el tamaño de la imagen al ancho del header */
+    height:140px ; /* Mantiene la proporción de la imagen */
+
+}
+
+.whatsapp_button
+
+   {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%; /* Esto hace que el elemento sea circular */
+      overflow: hidden;
 }
 
 /*estilos en mobile*/
- 
+
 @media (max-width: 641px) {
-  
-   .contenedor{
 
-
-       width: 80%;
-       margin-top: 40px;
-      
-       align-items: center;
-       display: flex;
-       flex-wrap: wrap;
-       position: absolute;
-       padding: 10px;
-       margin-left: 120px;
-   } 
-
-   .elemento{
-    height: 80px;
-    width: 90px;
-    padding: 60px;
-    border: 2px solid #3498db;
-    align-items: center;
-    margin: 10px 0; 
-
-   }
-
-   .imagen{
+    @media (max-width: 641px) {
+        header {
+            height: 72px;
+            padding: 5px;
+        
+        }
     
-    display: block;
-    height: auto; /* Permite que la altura se ajuste automáticamente */
-    width: 100%; /* Ajusta el ancho al 100% del contenedor */
-    max-width: 100%; /* Asegura que la imagen no sobrepase el contenedor */
-    margin-bottom: 10px;
-   }
-}
+        .contenedor_header1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .container {
+            margin: 0 10px; /* Ajusta el margen para dispositivos móviles */
+            margin-top: 50px;
+            display: grid;
+            grid-auto-flow: row;
+            row-gap: 30px;
+        }
+    
+        .item {
+            background-color: lightblue;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            height: auto; /* Deja que la altura se ajuste automáticamente */
+            min-width: 100px; /* Asegura un ancho mínimo */
+            text-align: center;
+        }
+    
+        .imagen {
+            display: block;
+            height: auto; /* Permite que la altura se ajuste automáticamente */
+            width: 100%; /* Ajusta el ancho al 100% del contenedor */
+            max-width: 100%; /* Asegura que la imagen no sobrepase el contenedor */
+            margin-bottom: 10px;
+        }
+    
+        .parrafo_inicial {
+            margin-top: 10px; /* Ajusta el margen para que el texto se vea mejor */
+        }
 
-/*estilos en Desktop*/
- 
-@media (min-width: 642px) {
+        .main_title{
 
-
-    .contenedor{
-
-    margin-top: -50px;    
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;     /* Centra verticalmente */
-    height: 100vh;           /* Ocupa toda la altura de la vista */
+            color: white;
+        
+            }
     }
 
-
-    .elemento{
-        height: 80px;
-        width: 90px;
-        padding: 60px;
-        border: 2px solid #3498db;
-        align-items: center;
-        margin: 0 20px; 
-    }    
-  
 }
+ /*estilos en Desktop*/
+ 
+ @media (min-width: 642px) {
+
+    header{
+        background-color: teal;
+        height: 150px;
+        padding: 10px;
+        text-align: center;
+    
+    }
+
+    .main_title{
+
+    color: white;
+
+    }
+
+    .container {
+        display: flex; 
+        justify-content: space-between;
+        gap: 10px; 
+        margin: 0 25px;
+        margin-top: 25px;
+    
+    }  
+
+    .item {
+
+        display: block;
+        background-color: lightblue;
+        padding: 35px;
+        margin: 1px;
+        border: 1px solid #ccc;
+        height: 224px;
+        min-width: 180px; /* Ancho mínimo para cada contenedor */
+        text-align: center; 
+        margin-bottom: 20px;
+
+        }
+
+        .contenedor_header1{
+            display: flex;
+            align-items: center; /* Centra verticalmente */
+            justify-content: center; /* Centra horizontalmente (opcional) */
+           
+            
+         }     
+
+     .logo_inicial{
+        margin-left: 290px;
+     }   
+
+     .imagen{
+        display: block;
+        height: 240px;
+        width: 180px;
+        margin-bottom: 10px;
+     }
+
+     .parrafo_inicial{
+       
+        margin-top: 40px;
+
+     }
+
+    }
