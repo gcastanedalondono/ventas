@@ -43,6 +43,15 @@ body, html {
     margin: 10px 0; 
 
    }
+
+   .imagen{
+    
+    display: block;
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    max-width: 100%; /* Asegura que la imagen no sobrepase el contenedor */
+    margin-bottom: 10px;
+   }
 }
 
 /*estilos en Desktop*/
