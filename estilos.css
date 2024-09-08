@@ -48,5 +48,25 @@ body, html {
 /*estilos en Desktop*/
  
 @media (min-width: 642px) {
+
+
+    .contenedor{
+
+    margin-top: -50px;    
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 100vh;           /* Ocupa toda la altura de la vista */
+    }
+
+
+    .elemento{
+        height: 80px;
+        width: 90px;
+        padding: 60px;
+        border: 2px solid #3498db;
+        align-items: center;
+        margin: 0 20px; 
+    }    
   
 }
