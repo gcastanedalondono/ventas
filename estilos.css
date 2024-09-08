@@ -1,0 +1,18 @@
+header{
+    background-color: teal;
+    height: 100px;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center;     /* Centra el contenido verticalmente (opcional) */
+    height: 60px; 
+    color:white;        
+     
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%
+
+}
+
