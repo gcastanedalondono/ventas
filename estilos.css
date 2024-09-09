@@ -126,7 +126,16 @@ body {
         align-items: center;
         margin: 10px 0; }
 
-        
+        .item {
+            width: 270px; /* Tamaño base del elemento */
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+            position: relative;
+            background-color: lightblue; /* Color de fondo para el ejemplo */
+        }  
 
 
     .contenedor_header1 {
@@ -288,6 +297,18 @@ body {
         width: 100%;
         margin-top: 10px;
     }
+
+    .item {
+        width: 200px; /* Tamaño base del elemento */
+        margin: 10px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        cursor: pointer;
+        position: relative;
+        background-color: lightblue; /* Color de fondo para el ejemplo */
+    }  
+
     
     
 }
