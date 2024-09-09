@@ -102,12 +102,32 @@ body {
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 641px) {
+    body{
+        overflow-x: hidden;
+    }
     header {
         background-color: teal;
         height: 100px;
         padding: 10px;
         text-align: center;
+        margin: 0;
     }
+    .gallery{
+        padding:10px;
+    }
+
+    .elemento{
+        height: 220px;
+        margin-bottom: 20px;
+        width: 160px;
+        padding: 60px;
+        display:block;
+        border: 1px solid #ccc;
+        align-items: center;
+        margin: 10px 0; }
+
+        
+
 
     .contenedor_header1 {
         display: flex;
@@ -115,24 +135,23 @@ body {
         justify-content: center;
     }
 
-    .container {
-        margin: 0 10px; /* Ajusta el margen para dispositivos móviles */
-        margin-top: 50px;
-        display: grid;
-        grid-auto-flow: row;
-        row-gap: 30px;
-    }
-
-    .item {
-        background-color: lightblue;
+    .container{
+        width: 80%;
+        margin-top: 40px;
+ 
+        align-items: center;
+        display: block;
+        
+        position: absolute;
         padding: 10px;
-        margin: 10px;
-        border: 1px solid #ccc;
-        height: auto; /* Deja que la altura se ajuste automáticamente */
-        min-width: 100px; /* Asegura un ancho mínimo */
-        text-align: center;
-        width: 120px; /* Ajusta el tamaño para pantallas más pequeñas */
-    }
+        margin-left: 120px;
+   } 
+
+   
+
+   }
+
+    
 
     .imagen {
         display: block;
@@ -153,7 +172,7 @@ body {
     .close {
         font-size: 24px; /* Ajusta el tamaño del botón de cierre */
     }
-}
+
 
 /* Estilos para dispositivos de escritorio */
 @media (min-width: 642px) {
@@ -269,6 +288,7 @@ body {
         width: 100%;
         margin-top: 10px;
     }
+    
     
 }
 
