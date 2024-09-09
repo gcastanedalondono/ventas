@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Aceite de coco 100 ml', imgSrc: 'jardin.png' },
-        { id: 2, title: 'Aceite de coco 230 ml', imgSrc: 'puertas_gratitud.png' },
-        { id: 3, title: 'Aceite de coco 450 ml', imgSrc: 'aceite_450ml.png' },
-        { id: 4, title: 'Aceite de coco 950 ml', imgSrc: 'aceite_950ml.png' },
+        { id: 1, title: 'Jabón de coco', imgSrc: 'jardin.png' },
+        { id: 2, title: 'Jabón de carbón activado', imgSrc: 'puertas_gratitud.png' },
+        { id: 3, title: 'Jabón de avena y miel', imgSrc: 'aceite_450ml.png' },
+        { id: 4, title: 'Jabón de arcilla roja', imgSrc: 'aceite_950ml.png' },
         
         
     ];

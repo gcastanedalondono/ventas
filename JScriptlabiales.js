@@ -1,11 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Aceite de coco 100 ml', imgSrc: 'jardin.png' },
-        { id: 2, title: 'Aceite de coco 230 ml', imgSrc: 'puertas_gratitud.png' },
-        { id: 3, title: 'Aceite de coco 450 ml', imgSrc: 'aceite_450ml.png' },
-        { id: 4, title: 'Aceite de coco 950 ml', imgSrc: 'aceite_950ml.png' },
-        
-        
+        { id: 1, title: 'Protector labial de coco', imgSrc: 'jardin.png' },
+        { id: 2, title: 'Protector labial de coco y sandia', imgSrc: 'puertas_gratitud.png' },
+        { id: 3, title: 'Protector labial de coco, menta y manteca de mango', imgSrc: 'aceite_450ml.png' },
+        { id: 4, title: 'Protector labial de coco, citricos y manteca de mango', imgSrc: 'puertas_gratitud.png' },
+       
     ];
 
     const gallery = document.querySelector('.gallery');
