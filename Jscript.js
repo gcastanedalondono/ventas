@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Tratamiento de cejas y pestañas', imgSrc: 'pestañas.png' },
+        { id: 1, title: 'Tratamiento de cejas y pestañas, $22.000', imgSrc: 'pestañas.png' },
         
     ];
 
