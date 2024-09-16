@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Crema extrahumectante de 470g', imgSrc: 'jardin.png' },
-        { id: 2, title: 'Crema extrahumectante de 310g', imgSrc: 'puertas_gratitud.png' },
-        { id: 3, title: 'Crema extrahumectante de 90g', imgSrc: 'aceite_450ml.png' },
-        
-        
+        { id: 1, title: 'Crema extrahumectante de 90g', imgSrc: 'aceite_100ml.png', description: "Una crema como para llevar en el bolso: precio:$13000" },
+        { id: 2, title: 'Crema extrahumectante de 310g', imgSrc: 'aceite_230ml.png', description: "Un aceite más grande para tus necesidades, precio $28.000" },
+        { id: 3, title: 'Aceite de coco 450 ml', imgSrc: 'aceite_450ml.png', description: "Ideal para el uso diario, precio $48000" }
+     
     ];
 
     const gallery = document.querySelector('.gallery');
     const modal = document.getElementById('modal');
     const modalImage = document.getElementById('modal-image');
+    const modalDescription = document.getElementById('modal-description'); // Seleccionamos el div para la descripción
     const buyButton = document.getElementById('buy-button');
     const closeButton = document.querySelector('.close');
 
@@ -23,15 +23,14 @@ document.addEventListener('DOMContentLoaded', () => {
             <img src="${item.imgSrc}" alt="${item.title}">
             <div class="item-title">${item.title}</div>
         `;
-        div.addEventListener('click', () => {
-            openModal(item);
-        });
+        div.addEventListener('click', () => openModal(item));
         gallery.appendChild(div);
     });
 
     function openModal(item) {
         modal.style.display = 'block';
         modalImage.src = item.imgSrc;
+        modalDescription.textContent = item.description; // Establecer la descripción en el modal
         currentItem = item;
     }
 
@@ -52,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    window.addEventListener('click', (event) => {
+    window.addEventListener('click', event => {
         if (event.target === modal) {
             closeModal();
         }
