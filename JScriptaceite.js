@@ -1,14 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Aceite de coco 100 ml', imgSrc: 'aceite_100ml.png', description: "Baruch HaShem!!" },
-        { id: 2, title: 'Aceite de coco 230 ml', imgSrc: 'aceite_230ml.png', description: "Un aceite más grande para tus necesidades." },
-        { id: 3, title: 'Aceite de coco 450 ml', imgSrc: 'aceite_450ml.png', description: "Ideal para el uso diario." },
-        { id: 4, title: 'Aceite de coco 950 ml', imgSrc: 'aceite_950ml.png', description: "Perfecto para familias." }
+        { id: 1, title: 'Aceite de coco 100 ml', imgSrc: 'aceite_100ml.png', description: "Un aceite solo para tu uso personal, precio: $15.000" },
+        { id: 2, title: 'Aceite de coco 230 ml', imgSrc: 'aceite_230ml.png', description: "Un aceite más grande para tus necesidades, precio $28.000" },
+        { id: 3, title: 'Aceite de coco 450 ml', imgSrc: 'aceite_450ml.png', description: "Ideal para el uso diario, precio $48000" },
+        { id: 4, title: 'Aceite de coco 950 ml', imgSrc: 'aceite_950ml.png', description: "Perfecto para familias, precio $85.000" }
     ];
 
     const gallery = document.querySelector('.gallery');
     const modal = document.getElementById('modal');
     const modalImage = document.getElementById('modal-image');
+    const modalDescription = document.getElementById('modal-description'); // Seleccionamos el div para la descripción
     const buyButton = document.getElementById('buy-button');
     const closeButton = document.querySelector('.close');
 
@@ -22,15 +23,14 @@ document.addEventListener('DOMContentLoaded', () => {
             <img src="${item.imgSrc}" alt="${item.title}">
             <div class="item-title">${item.title}</div>
         `;
-        div.addEventListener('click', () => {
-            openModal(item);
-        });
+        div.addEventListener('click', () => openModal(item));
         gallery.appendChild(div);
     });
 
     function openModal(item) {
         modal.style.display = 'block';
         modalImage.src = item.imgSrc;
+        modalDescription.textContent = item.description; // Establecer la descripción en el modal
         currentItem = item;
     }
 
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    window.addEventListener('click', (event) => {
+    window.addEventListener('click', event => {
         if (event.target === modal) {
             closeModal();
         }
