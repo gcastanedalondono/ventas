@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Aceite de coco 100 ml', imgSrc: 'jardin.png', description: "Baruch HaShem!!" },
-        { id: 2, title: 'Aceite de coco 230 ml', imgSrc: 'puertas_gratitud.png', description: "Un aceite más grande para tus necesidades." },
+        { id: 1, title: 'Aceite de coco 100 ml', imgSrc: 'aceite_100ml.png', description: "Baruch HaShem!!" },
+        { id: 2, title: 'Aceite de coco 230 ml', imgSrc: 'aceite_230ml.png', description: "Un aceite más grande para tus necesidades." },
         { id: 3, title: 'Aceite de coco 450 ml', imgSrc: 'aceite_450ml.png', description: "Ideal para el uso diario." },
         { id: 4, title: 'Aceite de coco 950 ml', imgSrc: 'aceite_950ml.png', description: "Perfecto para familias." }
     ];
