@@ -309,7 +309,10 @@ body {
         background-color: lightblue; /* Color de fondo para el ejemplo */
     }  
 
-    
+    .mobile-menu{
+ 
+        display: none;
+    }
     
 }
 
