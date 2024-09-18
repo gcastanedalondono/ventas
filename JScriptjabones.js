@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Jabón de coco', imgSrc: 'jardin.png' },
-        { id: 2, title: 'Jabón de carbón activado', imgSrc: 'puertas_gratitud.png' },
+        { id: 1, title: 'Jabón de coco', imgSrc: 'jabon_coco.png' },
+        { id: 2, title: 'Jabón de carbón activado', imgSrc: 'jabon_carbon.png' },
         { id: 3, title: 'Jabón de avena y miel', imgSrc: 'aceite_450ml.png' },
         { id: 4, title: 'Jabón de arcilla roja', imgSrc: 'aceite_950ml.png' },
         
