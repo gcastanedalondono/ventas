@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Crema extrahumectante de 90g', imgSrc: 'aceite_100ml.png', description: "Una crema como para llevar en el bolso: precio:$13000" },
-        { id: 2, title: 'Crema extrahumectante de 310g', imgSrc: 'aceite_230ml.png', description: "Un aceite más grande para tus necesidades, precio $28.000" },
-        { id: 3, title: 'Aceite de coco 450 ml', imgSrc: 'aceite_450ml.png', description: "Ideal para el uso diario, precio $48000" }
+        { id: 1, title: 'Crema extrahumectante de 90g', imgSrc: 'crema_90g.png', description: "Una crema como para llevar en el bolso: precio:$13000" },
+        { id: 2, title: 'Crema extrahumectante de 310g', imgSrc: 'crema_310g.png', description: "Un aceite más grande para tus necesidades, precio $28.000" },
+        { id: 3, title: 'Crema extrahumectante de 470g', imgSrc: 'crema_470g.png', description: "Ideal para el uso diario, precio $48000" }
      
     ];
 

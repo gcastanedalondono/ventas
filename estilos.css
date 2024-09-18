@@ -106,7 +106,7 @@ body {
         overflow-x: hidden;
     }
     header {
-        background-color: teal;
+        background-color:teal;
         height: 100px;
         padding: 10px;
         text-align: center;
@@ -115,6 +115,39 @@ body {
     .gallery{
         padding:10px;
     }
+
+    .menu{
+        margin-right: 200px;
+        width: 60px;
+        height: 60px;
+    }
+    .mobile-menu {
+        background-color: white;
+        position:absolute;
+        top: 60px;
+        padding: 8px;
+        z-index: 1000;
+        overflow: visible;
+ 
+      }
+
+      .mobile-menu a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        /* margin-bottom: 24px; */
+      }
+      .mobile-menu ul {
+        padding: 0;
+        margin: 12px 0 0;
+        list-style: none;
+      }
+      .mobile-menu ul:nth-child(1) {
+        border-bottom: 1px solid white;
+      }
+      .mobile-menu ul li {
+        margin-bottom: 8px;
+      }
 
     .elemento{
         height: 220px;
@@ -312,6 +345,10 @@ body {
     .mobile-menu{
  
         display: none;
+    }
+
+    .menu{
+        display:none;
     }
     
 }

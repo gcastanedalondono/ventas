@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Protector labial de coco', imgSrc: 'jardin.png' },
-        { id: 2, title: 'Protector labial de coco y sandia', imgSrc: 'puertas_gratitud.png' },
-        { id: 3, title: 'Protector labial de coco, menta y manteca de mango', imgSrc: 'aceite_450ml.png' },
+        { id: 1, title: 'Protector labial de coco', imgSrc: 'labial_coco.png' },
+        { id: 2, title: 'Protector labial de coco y sandia', imgSrc: 'labial_sandia.png' },
+        { id: 3, title: 'Protector labial de coco, menta y manteca de mango', imgSrc: 'labial_menta.png' },
         { id: 4, title: 'Protector labial de coco, citricos y manteca de mango', imgSrc: 'puertas_gratitud.png' },
        
     ];
