@@ -189,6 +189,10 @@ body {
         margin-bottom: 8px;
       }
 
+      .navbar-left {
+        display:none;
+      }
+
     .elemento{
         height: 220px;
         margin-bottom: 20px;
