@@ -296,7 +296,7 @@ body {
     }
     
     /* Imagen dentro del modal */
-    .modal-content img {
+    .-content img {
         width: 100%;
         height: auto;
         max-width: 100%; /* Limita el ancho máximo de la imagen */
