@@ -9,16 +9,17 @@ function toggleMobileMenu () {
 
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Protector labial de coco', imgSrc: 'labial_coco.png' },
-        { id: 2, title: 'Protector labial de coco y sandia', imgSrc: 'labial_sandia.png' },
-        { id: 3, title: 'Protector labial de coco, menta y manteca de mango', imgSrc: 'labial_menta.png' },
-        { id: 4, title: 'Protector labial de coco, citricos y manteca de mango', imgSrc: 'labial_citrico.png' },
+        { id: 1, title: 'Protector labial de coco, precio :$9.000', imgSrc: 'labial_coco.png', description:"Protector labial a base de aceite de coco, manteca de cacao y karite y vitamina E, Precio: $9000" },
+        { id: 2, title: 'Protector labial de coco y sandia, precio: $9000', imgSrc: 'labial_sandia.png' },
+        { id: 3, title: 'labial de coco, menta y mango, precio: $14000', imgSrc: 'labial_menta.png' },
+        { id: 4, title: 'labial de coco, toronja y mango, precio: $14000', imgSrc: 'labial_citrico.png' },
        
     ];
 
     const gallery = document.querySelector('.gallery');
     const modal = document.getElementById('modal');
     const modalImage = document.getElementById('modal-image');
+    const modalDescription = document.getElementById('modal-description');
     const buyButton = document.getElementById('buy-button');
     const closeButton = document.querySelector('.close');
 
@@ -41,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function openModal(item) {
         modal.style.display = 'block';
         modalImage.src = item.imgSrc;
+        modalDescription.textContent = item.description;
         currentItem = item;
     }
 
