@@ -106,7 +106,7 @@ body {
         overflow-x: hidden;
     }
     header {
-        background-color:teal;
+        background-color:black;
         height: 100px;
         padding: 10px;
         text-align: center;
@@ -220,7 +220,7 @@ body {
 /* Estilos para dispositivos de escritorio */
 @media (min-width: 642px) {
     header {
-        background-color: teal;
+        background-color: black;
         height: 150px;
         padding: 10px;
         text-align: center;
