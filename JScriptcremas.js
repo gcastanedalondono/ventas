@@ -10,9 +10,9 @@ function toggleMobileMenu () {
 
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Crema extrahumectante de 90g', imgSrc: 'crema_90g.png', description: "Una crema como para llevar en el bolso: precio:$13000" },
-        { id: 2, title: 'Crema extrahumectante de 310g', imgSrc: 'crema_310g.png', description: "Un aceite más grande para tus necesidades, precio $28.000" },
-        { id: 3, title: 'Crema extrahumectante de 470g', imgSrc: 'crema_470g.png', description: "Ideal para el uso diario, precio $48000" }
+        { id: 1, title: 'Crema extrahumectante de 90g, precio: $13.000', imgSrc: 'crema_90g.png', description: "Una crema como para llevar en el bolso: precio:$13000" },
+        { id: 2, title: 'Crema extrahumectante de 310g, precio: $28.000', imgSrc: 'crema_310g.png', description: "Un aceite más grande para tus necesidades, precio $28.000" },
+        { id: 3, title: 'Crema extrahumectante de 470g, precio: $48.000', imgSrc: 'crema_470g.png', description: "Ideal para el uso diario, precio $48000" }
      
     ];
 

@@ -9,10 +9,10 @@ function toggleMobileMenu () {
 
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Aceite de coco 100 ml', imgSrc: 'aceite_100ml.png', description: "Un aceite solo para tu uso personal, precio: $15.000" },
-        { id: 2, title: 'Aceite de coco 230 ml', imgSrc: 'aceite_230ml.png', description: "Un aceite más grande para tus necesidades, precio $28.000" },
-        { id: 3, title: 'Aceite de coco 450 ml', imgSrc: 'aceite_450ml.png', description: "Ideal para el uso diario, precio $48000" },
-        { id: 4, title: 'Aceite de coco 950 ml', imgSrc: 'aceite_950ml.png', description: "Perfecto para familias, precio $85.000" }
+        { id: 1, title: 'Aceite de coco 100 ml, precio $15.000', imgSrc: 'aceite_100ml.png', description: "Un aceite solo para tu uso personal, precio: $15.000" },
+        { id: 2, title: 'Aceite de coco 230 ml, precio $28.000', imgSrc: 'aceite_230ml.png', description: "Un aceite más grande para tus necesidades, precio $28.000" },
+        { id: 3, title: 'Aceite de coco 450 ml, precio $48.000', imgSrc: 'aceite_450ml.png', description: "Ideal para el uso diario, precio $48000" },
+        { id: 4, title: 'Aceite de coco 950 ml, precio $85.000', imgSrc: 'aceite_950ml.png', description: "Perfecto para familias, precio $85.000" }
     ];
 
     const gallery = document.querySelector('.gallery');

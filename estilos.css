@@ -10,6 +10,8 @@ body {
  
   }
 
+
+  
   .navbar-left ul{
 
     
@@ -105,7 +107,7 @@ body {
 .modal-content img {
     width: 100%;
     height: auto;
-    max-height: 53vh;
+    max-height: 48vh;
 }
 
 /* Botón de cerrar */
@@ -137,7 +139,7 @@ body {
 
 /* Estilo del título principal */
 .main_title {
-    color: white;
+    color: black;
     text-align: center;
 }
 
