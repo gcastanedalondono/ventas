@@ -1,3 +1,12 @@
+const menuHamIcon = document.querySelector ('.menu');
+const mobileMenu = document.querySelector ('.mobile-menu');
+menuHamIcon.addEventListener('click', toggleMobileMenu);
+
+function toggleMobileMenu () {
+    mobileMenu.classList.toggle ('inactive');
+}
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
         { id: 1, title: 'Aceite de coco 100 ml', imgSrc: 'aceite_100ml.png', description: "Un aceite solo para tu uso personal, precio: $15.000" },

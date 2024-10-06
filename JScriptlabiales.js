@@ -1,3 +1,12 @@
+const menuHamIcon = document.querySelector ('.menu');
+const mobileMenu = document.querySelector ('.mobile-menu');
+menuHamIcon.addEventListener('click', toggleMobileMenu);
+
+function toggleMobileMenu () {
+    mobileMenu.classList.toggle ('inactive');
+}
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
         { id: 1, title: 'Protector labial de coco', imgSrc: 'labial_coco.png' },

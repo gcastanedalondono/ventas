@@ -147,7 +147,7 @@ body {
     }
     header {
         background-color:black;
-        height: 60px;
+        height: 50px;
         padding: 10px;
         text-align: center;
         margin: 0;
@@ -164,7 +164,7 @@ body {
     .mobile-menu {
         background-color: white;
         position:absolute;
-        top: 60px;
+        top: 70px;
         padding: 8px;
         z-index: 1000;
         overflow: visible;
@@ -265,7 +265,7 @@ body {
 @media (min-width: 642px) {
     header {
         background-color: black;
-        height: 150px;
+        height: 70px;
         padding: 10px;
         text-align: center;
     }

@@ -1,3 +1,13 @@
+const menuHamIcon = document.querySelector ('.menu');
+const mobileMenu = document.querySelector ('.mobile-menu');
+menuHamIcon.addEventListener('click', toggleMobileMenu);
+
+function toggleMobileMenu () {
+    mobileMenu.classList.toggle ('inactive');
+}
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
         { id: 1, title: 'Crema extrahumectante de 90g', imgSrc: 'crema_90g.png', description: "Una crema como para llevar en el bolso: precio:$13000" },
