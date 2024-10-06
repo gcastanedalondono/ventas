@@ -102,9 +102,10 @@ body {
 }
 
 /* Imagen dentro del modal */
-.-content img {
+.modal-content img {
     width: 100%;
     height: auto;
+    max-height: 53vh;
 }
 
 /* Botón de cerrar */
