@@ -9,31 +9,31 @@ function toggleMobileMenu () {
 
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Tratamiento de cejas y pestañas', imgSrc: 'pestañas.png', description: "Un aceite solo para tu uso personal, precio: $15.000" },
-        { id: 2, title: 'Aceites de coco virgen prensado en frío', imgSrc: 'aceite_230ml.png', description: "Un aceite más grande para tus necesidades, precio $28.000" },
-        { id: 3, title: 'Cremas extrahumectante', imgSrc: 'crema_310g.png', description: "Ideal para el uso diario, precio $48000" },
-        { id: 4, title: 'protectores labiales', imgSrc: 'labiales.png', description: "Perfecto para familias, precio $85.000" }
+        { id: 1, title: 'Tratamiento de cejas y pestañas', imgSrc: 'pestañas.png', description: "Un tratamiento para cejas y pestañas, precio: $15.000", pageUrl: 'tratamiento_pestañas.html' },
+        { id: 2, title: 'Aceites de coco virgen prensado en frío', imgSrc: 'aceite_230ml.png', description: "Aceite de coco prensado en frío, precio: $28.000", pageUrl: 'aceite_de_coco.html' },
+        { id: 3, title: 'Cremas extrahumectante', imgSrc: 'crema_310g.png', description: "Crema extrahumectante para el cuidado diario, precio: $48.000", pageUrl: 'crema_extrahumectante.html' },
+        { id: 4, title: 'Protectores labiales', imgSrc: 'labiales.png', description: "Protectores labiales para todo tipo de piel, precio: $85.000", pageUrl: 'protectores_labiales.html' }
     ];
 
     const gallery = document.querySelector('.gallery');
-    const modal = document.getElementById('modal');
-    const modalImage = document.getElementById('modal-image');
-    const modalDescription = document.getElementById('modal-description'); // Seleccionamos el div para la descripción
-    const buyButton = document.getElementById('buy-button');
-    const closeButton = document.querySelector('.close');
-
-    let currentItem = null;
 
     // Generar los elementos de la tienda
     items.forEach(item => {
         const div = document.createElement('div');
         div.classList.add('item');
-        div.innerHTML = `
+        
+        // Crear un enlace (a) para redirigir a la página correspondiente
+        const anchor = document.createElement('a');
+        anchor.href = item.pageUrl;  // URL a la página del producto
+        anchor.classList.add('item-link');  // Añadir una clase para estilos (opcional)
+        
+        anchor.innerHTML = `
             <img src="${item.imgSrc}" alt="${item.title}">
             <div class="item-title">${item.title}</div>
         `;
-        div.addEventListener('click', () => openModal(item));
+
+        // Agregar el enlace a la galería
+        div.appendChild(anchor);
         gallery.appendChild(div);
     });
-
-});    
+});
