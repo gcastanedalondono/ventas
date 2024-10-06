@@ -27,6 +27,23 @@ body {
     display: flex;
   }
 
+  .navbar-left ul {
+    margin-left: 12px;
+  }
+
+  .navbar-left ul li a{
+    text-decoration: none;
+     padding: 10px;
+     border-radius: 8px;
+  }
+  .fuente{
+    color: white;
+  }
+
+  .inactive{
+    display: none;
+  }
+
 /* Estilos de la galería */
 .gallery {
     display: flex;
