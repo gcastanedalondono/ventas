@@ -62,7 +62,7 @@ body {
 }
 
 /* Imagen dentro del modal */
-.modal-content img {
+.-content img {
     width: 100%;
     height: auto;
 }
@@ -197,6 +197,7 @@ body {
 
     .imagen {
         display: block;
+        
         height: auto; /* Permite que la altura se ajuste automáticamente */
         width: 100%; /* Ajusta el ancho al 100% del contenedor */
         max-width: 100%; /* Asegura que la imagen no sobrepase el contenedor */
@@ -294,9 +295,11 @@ body {
         position: relative;
         overflow: hidden; /* Asegura que el contenido no se desborde */
     }
+
+    
     
     /* Imagen dentro del modal */
-    .-content img {
+    .modal-content img {
         width: 100%;
         height: auto;
         max-width: 100%; /* Limita el ancho máximo de la imagen */
@@ -353,5 +356,3 @@ body {
     
 }
 
-
-        
