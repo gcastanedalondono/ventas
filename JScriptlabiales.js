@@ -9,7 +9,7 @@ function toggleMobileMenu () {
 
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Protector labial de coco, precio :$9.000', imgSrc: 'labial_coco.png', description:"Protector labial a base de aceite de coco, manteca de cacao y karite y vitamina E, Precio: $9000" },
+        { id: 1, title: 'Protector labial de coco, precio :$9.000', imgSrc: 'labial_coco.png', description:"Cuida y revitaliza tus labios con nuestro Protector Labial Natural, enriquecido con aceite de coco, cera de abeja, manteca de karité y vitamina E. La combinación de estos ingredientes proporciona una hidratación profunda, creando una barrera protectora contra el viento, el frío y la deshidratación. El aceite de coco y la manteca de karité nutren y suavizan, mientras que la cera de abeja protege y la vitamina E combate los signos de envejecimiento, dejando tus labios suaves, hidratados y saludables.Precio: $9000" },
         { id: 2, title: 'Protector labial de coco y sandia, precio: $9000', imgSrc: 'labial_sandia.png', description:"Protector labial a base de aceite de coco, manteca de cacao y karite y vitamina E, Precio: $9000" },
         { id: 3, title: 'labial de coco, menta y mango, precio: $14000', imgSrc: 'labial_menta.png',description:"Protector labial, a base de aceite de coco, aceite de sachainchi, manteca de mango y aceites esencial de menta, Precio: $14.000" },
         { id: 4, title: 'labial de coco, toronja y mango, precio: $14000', imgSrc: 'labial_citrico.png',description:"Protector labial, a base de aceite de coco, aceite de sachainchi, manteca de mango y aceites esenciales citricos(mandarina, pomelo y naranja), Precio: $14.000" },
