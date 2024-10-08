@@ -9,10 +9,10 @@ function toggleMobileMenu () {
 
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Aceite de coco 100 ml, precio $15.000', imgSrc: 'aceite_100ml.png', description: "Un aceite solo para tu uso personal, precio: $15.000" },
-        { id: 2, title: 'Aceite de coco 230 ml, precio $28.000', imgSrc: 'aceite_230ml.png', description: "Un aceite más grande para tus necesidades, precio $28.000" },
-        { id: 3, title: 'Aceite de coco 450 ml, precio $48.000', imgSrc: 'aceite_450ml.png', description: "Ideal para el uso diario, precio $48000" },
-        { id: 4, title: 'Aceite de coco 950 ml, precio $85.000', imgSrc: 'aceite_950ml.png', description: "Perfecto para familias, precio $85.000" }
+        { id: 1, title: 'Aceite de coco 100 ml, precio $15.000', imgSrc: 'aceite_100ml.png', description: "Un aceite solo para tu uso personal. Es ideal para el cuidado de la piel, el cabello y la salud en general. Su versatilidad lo convierte en un excelente aliado tanto en la cocina como en tu rutina de belleza diaria. Disfruta de sus propiedades hidratantes, nutritivas y revitalizantes. ¡Natural, saludable y multifuncional! precio: $15.000" },
+        { id: 2, title: 'Aceite de coco 230 ml, precio $28.000', imgSrc: 'aceite_230ml.png', description: "Un aceite más grande para tus necesidades. Es ideal para el cuidado de la piel, el cabello y la salud en general. Su versatilidad lo convierte en un excelente aliado tanto en la cocina como en tu rutina de belleza diaria. Disfruta de sus propiedades hidratantes, nutritivas y revitalizantes. ¡Natural, saludable y multifuncional! precio $28.000" },
+        { id: 3, title: 'Aceite de coco 450 ml, precio $48.000', imgSrc: 'aceite_450ml.png', description: "Ideal para el uso diario. Es ideal para el cuidado de la piel, el cabello y la salud en general. Su versatilidad lo convierte en un excelente aliado tanto en la cocina como en tu rutina de belleza diaria. Disfruta de sus propiedades hidratantes, nutritivas y revitalizantes. ¡Natural, saludable y multifuncional! precio $48000" },
+        { id: 4, title: 'Aceite de coco 950 ml, precio $85.000', imgSrc: 'aceite_950ml.png', description: "Perfecto para familias. Es ideal para el cuidado de la piel, el cabello y la salud en general. Su versatilidad lo convierte en un excelente aliado tanto en la cocina como en tu rutina de belleza diaria. Disfruta de sus propiedades hidratantes, nutritivas y revitalizantes. ¡Natural, saludable y multifuncional! precio $85.000" }
     ];
 
     const gallery = document.querySelector('.gallery');
