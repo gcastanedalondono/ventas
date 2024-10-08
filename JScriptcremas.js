@@ -10,9 +10,9 @@ function toggleMobileMenu () {
 
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Crema extrahumectante de 90g, precio: $13.000', imgSrc: 'crema_90g.png', description: "Una crema como para llevar en el bolso: precio:$13000" },
-        { id: 2, title: 'Crema extrahumectante de 310g, precio: $28.000', imgSrc: 'crema_310g.png', description: "Un aceite más grande para tus necesidades, precio $28.000" },
-        { id: 3, title: 'Crema extrahumectante de 470g, precio: $48.000', imgSrc: 'crema_470g.png', description: "Ideal para el uso diario, precio $48000" }
+        { id: 1, title: 'Crema extrahumectante de 90g, precio: $13.000', imgSrc: 'crema_90g.png', description: "Una crema como para llevar en el bolso. combina los beneficios del aceite de coco, la vitamina E y el tomillo para ofrecerte una experiencia única de cuidado y bienestar. El aceite de coco proporciona una hidratación profunda, dejando la piel suave y sedosa, mientras que la vitamina E actúa como potente antioxidante, protegiendo y revitalizando tu piel. El tomillo, con sus propiedades antisépticas, ayuda a calmar y refrescar la piel, dejándola con una sensación de frescura duradera.  Precio:$13000" },
+        { id: 2, title: 'Crema extrahumectante de 310g, precio: $28.000', imgSrc: 'crema_310g.png', description: "Combina los beneficios del aceite de coco, la vitamina E y el tomillo para ofrecerte una experiencia única de cuidado y bienestar. El aceite de coco proporciona una hidratación profunda, dejando la piel suave y sedosa, mientras que la vitamina E actúa como potente antioxidante, protegiendo y revitalizando tu piel. El tomillo, con sus propiedades antisépticas, ayuda a calmar y refrescar la piel, dejándola con una sensación de frescura duradera., precio $28.000" },
+        { id: 3, title: 'Crema extrahumectante de 470g, precio: $44.000', imgSrc: 'crema_470g.png', description: "combina los beneficios del aceite de coco, la vitamina E y el tomillo para ofrecerte una experiencia única de cuidado y bienestar. El aceite de coco proporciona una hidratación profunda, dejando la piel suave y sedosa, mientras que la vitamina E actúa como potente antioxidante, protegiendo y revitalizando tu piel. El tomillo, con sus propiedades antisépticas, ayuda a calmar y refrescar la piel, dejándola con una sensación de frescura duradera.Precio $48000" }
      
     ];
 
