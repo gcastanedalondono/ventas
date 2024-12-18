@@ -10,10 +10,11 @@ function toggleMobileMenu () {
 
 document.addEventListener('DOMContentLoaded', () => {
     const items = [
-        { id: 1, title: 'Crema extrahumectante de 90g, precio: $13.000', imgSrc: 'crema_90g.png', description: "Una crema como para llevar en el bolso. combina los beneficios del aceite de coco, la vitamina E y el tomillo para ofrecerte una experiencia única de cuidado y bienestar. El aceite de coco proporciona una hidratación profunda, dejando la piel suave y sedosa, mientras que la vitamina E actúa como potente antioxidante, protegiendo y revitalizando tu piel. El tomillo, con sus propiedades antisépticas, ayuda a calmar y refrescar la piel, dejándola con una sensación de frescura duradera.  Precio:$13000" },
-        { id: 2, title: 'Crema extrahumectante de 310g, precio: $28.000', imgSrc: 'crema_310g.png', description: "Combina los beneficios del aceite de coco, la vitamina E y el tomillo para ofrecerte una experiencia única de cuidado y bienestar. El aceite de coco proporciona una hidratación profunda, dejando la piel suave y sedosa, mientras que la vitamina E actúa como potente antioxidante, protegiendo y revitalizando tu piel. El tomillo, con sus propiedades antisépticas, ayuda a calmar y refrescar la piel, dejándola con una sensación de frescura duradera., precio $28.000" },
-        { id: 3, title: 'Crema extrahumectante de 470g, precio: $44.000', imgSrc: 'crema_470g.png', description: "combina los beneficios del aceite de coco, la vitamina E y el tomillo para ofrecerte una experiencia única de cuidado y bienestar. El aceite de coco proporciona una hidratación profunda, dejando la piel suave y sedosa, mientras que la vitamina E actúa como potente antioxidante, protegiendo y revitalizando tu piel. El tomillo, con sus propiedades antisépticas, ayuda a calmar y refrescar la piel, dejándola con una sensación de frescura duradera.Precio $48000" }
-     
+        {id : 1, title: 'Crema con loción de hombre, precio: $28000, envio en Medellín $5000', imgSrc: 'crema_nueva.png', description: "Crema hidratante a base de aceite de coco, ideal para cuidar tatuajes. Su fórmula nutre profundamente la piel, evitando la sequedad e irritación. Con loción Ponant Blue, brinda frescura y confort, manteniendo tu tatuaje hidratado y vibrante. Precio:$28000"},
+        { id: 2, title: 'Crema extrahumectante de 90g, precio,  envio en Medellín $5000,' ,imgSrc: 'crema_90g.png', description: "Una crema como para llevar en el bolso. combina los beneficios del aceite de coco, la vitamina E y el tomillo para ofrecerte una experiencia única de cuidado y bienestar. El aceite de coco proporciona una hidratación profunda, dejando la piel suave y sedosa, mientras que la vitamina E actúa como potente antioxidante, protegiendo y revitalizando tu piel. El tomillo, con sus propiedades antisépticas, ayuda a calmar y refrescar la piel, dejándola con una sensación de frescura duradera.  Precio:$13000" },
+        { id: 3, title: 'Crema extrahumectante de 310g, precio: $28.000,  envio en Medellín $5000', imgSrc: 'crema_310g.png', description: "Combina los beneficios del aceite de coco, la vitamina E y el tomillo para ofrecerte una experiencia única de cuidado y bienestar. El aceite de coco proporciona una hidratación profunda, dejando la piel suave y sedosa, mientras que la vitamina E actúa como potente antioxidante, protegiendo y revitalizando tu piel. El tomillo, con sus propiedades antisépticas, ayuda a calmar y refrescar la piel, dejándola con una sensación de frescura duradera., precio $28.000" },
+        { id: 4, title: 'Crema extrahumectante de 470g, precio: $44.000,  envio en Medellín $5000', imgSrc: 'crema_470g.png', description: "combina los beneficios del aceite de coco, la vitamina E y el tomillo para ofrecerte una experiencia única de cuidado y bienestar. El aceite de coco proporciona una hidratación profunda, dejando la piel suave y sedosa, mientras que la vitamina E actúa como potente antioxidante, protegiendo y revitalizando tu piel. El tomillo, con sus propiedades antisépticas, ayuda a calmar y refrescar la piel, dejándola con una sensación de frescura duradera.Precio $48000" },
+        
     ];
 
     const gallery = document.querySelector('.gallery');
@@ -53,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     buyButton.addEventListener('click', () => {
         if (currentItem) {
-            const phoneNumber = '573046780036'; // Reemplaza con el número de WhatsApp
+            const phoneNumber = '573117185868'; // Reemplaza con el número de WhatsApp
             const whatsappMessage = encodeURIComponent(`Hola, quiero comprar el ${currentItem.title}.`);
             const url = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
             window.open(url, '_blank');
